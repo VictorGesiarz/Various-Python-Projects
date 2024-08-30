@@ -1,0 +1,7 @@
+board = [[0 for i in range(DIMENSION)] for j in range(DIMENSION)]
+    for z in range(DIMENSION):
+        for x in range(DIMENSION):
+            if z == x:
+                board[z][x] = 1
+            if z + x == DIMENSION:
+                board[z][x] = 1
